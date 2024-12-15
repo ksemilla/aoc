@@ -115,6 +115,5 @@ ans2 = 0
 for i,area in enumerate(areas):
     ans1 += area * perimeters[i]
     ans2 += area * sides[i]
-    # print(plants[i], area, sides[i])
 print(ans1)
 print(ans2)
